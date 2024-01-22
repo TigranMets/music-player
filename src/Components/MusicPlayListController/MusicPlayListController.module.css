@@ -1,0 +1,71 @@
+.musicPlayListController {
+    display: flex;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    background: #E3E3E3;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.playerButton {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #3498db;
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.playerButton:hover {
+    background-color: #2980b9;
+    /* Hover color */
+}
+
+.playAllIcon {
+    max-width: 15.5px;
+    margin-right: 5px;
+}
+
+.plusIcon {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.filter {
+    position: absolute;
+    right: 10px;
+}
+
+input[type='search'] {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.searchIcon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 8px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.playerButton:hover {
+    background-color: #2980b9;
+    transition: background-color 0.3s ease;
+}
